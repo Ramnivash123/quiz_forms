@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Dashboard</title>
+    <style>
+        /* Global Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        /* Container Styles */
+       .container {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Logo Styles */
+       .home-logo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            display: block;
+            width: 40px; /* Adjust width to your desired size */
+            height: auto; /* Ensures aspect ratio is maintained */
+            cursor: pointer;
+        }
+        
+        /* Button Styles */
+       .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff; /* Blue color */
+            color: white;
+            text-decoration: none;
+            border: none;
+            border-radius: 4px;
+            margin: 10px;
+            cursor: pointer;
+        }
+        
+       .btn:hover {
+            background-color: #0056b3; /* Darker shade of blue for hover state */
+        }
+        
+        /* Home Button Styles */
+       .home-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="home-logo">
+        <img src="#" alt="Home">
+    </a>
+    <div class="container">
+        <h1>Teacher Dashboard</h1>
+        <a href="teacher.php" class="btn">Create</a>
+        <a href="view.php" class="btn">View</a>
+        <a href="leader.php" class="btn">Leaderboard</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignments</title>
+    <style>
+        /* Global styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Button styles */
+        .button {
+            padding: 15px 30px;
+            background-color: #007bff; /* Blue */
+            color: #ffffff; /* White */
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-decoration: none; /* No underline for links */
+            margin-right: 10px; /* Space between buttons */
+        }
+
+        .button:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+
+        /* Home button styles */
+        .home-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+
+        /* Home logo styles */
+        .home-logo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            display: block;
+            width: 40px; /* Adjust width to your desired size */
+            height: auto; /* Ensures aspect ratio is maintained */
+        }
+
+        /* Add some space between buttons and logo */
+        .home-button, .home-logo {
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<a href="index.html" class="home-logo">
+    <img src="#" alt="Home">
+</a>
+
+<a href="student.php" class="button">Assignments</a>
+<a href="marks.php" class="button">Score</a>
+
+</body>
+</html>
